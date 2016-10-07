@@ -1,0 +1,310 @@
+/* logo  */
+#logo
+{
+  height: 58px;
+  width: 58px;
+  margin-left: 40px;
+  display: inline;
+}
+
+/* organization's name */
+#name
+{
+  font-size: 30px;
+  padding: 0;
+  margin: 0px 0px 0px 20px;
+  font-family: 'Nosifer', cursive;
+}
+
+/* Organization container */
+.company
+{
+  font-size: 30px;
+  display: inline;
+}
+
+/* position nav menu */
+.nav_menu
+{
+  text-align: right;
+  float: right;
+}
+
+/* nav menu items' properties */
+.nav_li
+{
+  display: inline;
+  text-decoration: none;
+  padding-right: 30px;
+  font-family: 'Shrikhand', cursive;
+}
+
+/* nav menu item's text's property */
+.li_a
+{
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+/* nav menu item's text's changing property */
+.li_a:hover
+{
+  margin: 0;
+  background: #ddaa33;
+  padding-top: 20px;
+  padding-bottom: 18px;
+  transition-duration: 0.4s;
+}
+
+/* normal anchor hover properties */
+a:hover.change_link_color
+{
+  background: #ddaa33;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+}
+
+/* occupy full width */
+.width_full
+{
+  width: 100%;
+}
+
+/*  no underline  */
+.no_underline
+{
+  text-decoration: none;
+}
+
+/* use shrikhand font */
+.font_shrikhand
+{
+  font-family: 'Shrikhand', cursive;
+}
+
+/* use iceland font */
+.font_iceland
+{
+  font-family: 'Iceland', cursive;
+  font-size: 20px;
+}
+
+/* set transparency 0.85 */
+.transparent
+{
+  opacity: 0.85;
+}
+
+/* set header height */
+.header_height
+{
+  height: 60px;
+}
+
+/* set top margin at top most element */
+.top_margin
+{
+  margin-top: 70px;
+}
+
+/* set right margin */
+.right_margin
+{
+  margin-right: 10px;
+}
+
+/* set left margin */
+.left_margin
+{
+  margin-left: 10px;
+}
+
+/* set top margin between elements */
+.between_top_margin
+{
+  margin-top: 10px;
+}
+
+/* set height of center columns/poster(if reqd) */
+.poster_height
+{
+  height: 580px;
+}
+
+/* create hero unit */
+.hero_unit
+{
+  height: 780px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* set column height */
+.column_height
+{
+  height: 300px;
+}
+
+/* set 100px row height */
+.row_height
+{
+  height: 100px;
+}
+
+/* footer specifics */
+.footer
+{
+  margin: 10px 0px 0px 0px;
+  padding: 10px 200px 10px 200px;
+  text-align: center;
+  height: 25px;
+}
+
+/* indent 15px */
+.indent_15
+{
+  text-indent: 15px;
+}
+
+/* fix an element */
+.fixed
+{
+  width: 100%;
+  margin: auto;
+  position: fixed;
+}
+
+/* dropdown menu root item position */
+.dropdown_menu
+{
+  display: inline-block;
+  position: fixed;
+  top: 60px;
+  height: 20px;
+  width: 290px;
+  background: gray;
+  border-bottom-left-radius: 300px;
+  border-bottom-right-radius: 300px;
+}
+
+/* dropdown content styling */
+.dropdown_content
+{
+  display: none;
+  background: #ffee99;
+  padding: 10px 10px 10px 10px;
+  min-width: 150px;
+}
+
+/* dropdown menu item styling */
+.dropdown_menu_item
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* display sub menu */
+.dropdown_menu:hover .dropdown_content
+{
+  display: block;
+}
+
+/* style submenu items on display */
+.dropdown_content:hover .dropdown_menu_item
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition-duration: 0.4s;
+}
+
+/* change submenu items styling on hover */
+.dropdown_menu_item:hover
+{
+  background: #eebb77;
+}
+
+/* use white color text */
+.twhite
+{
+  color: white;
+}
+
+/* use gray shade text */
+.tgray_shade
+{
+  color: rgb(50,50,50);
+}
+
+/* use white background */
+.bwhite
+{
+  background: white;
+}
+
+/* use black background */
+.bblack
+{
+  background: black;
+}
+
+/* use gray background */
+.bgray
+{
+  background: gray;
+}
+
+/* use yellow shade background */
+.byellow_shade
+{
+  background: #ffcc55;
+}
+
+/* set inline */
+.inline
+{
+  display: inline;
+}
+
+/* align center text */
+.text_center
+{
+  text-align: center;
+}
+
+/* align left text */
+.text_left
+{
+  text-align: left;
+}
+
+/* align right text  */
+.text_right
+{
+  text-align: right;
+}
+
+/* left float */
+.float_left
+{
+  float: left;
+}
+
+/* right float */
+.float_right
+{
+  float: right;
+}
+
+/* set adjacent columns' heights */
+.left_right_column_height
+{
+  height: 300px;
+}
+
+/* left padding */
+.left_pad
+{
+  padding-left: 5px;
+}
