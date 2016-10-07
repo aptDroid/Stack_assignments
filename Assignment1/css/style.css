@@ -16,6 +16,23 @@
   font-family: 'Nosifer', cursive;
 }
 
+#fb_link
+{
+  height: 17px;
+  width: 17px;
+}
+
+#official_link
+{
+  height: 24px;
+  width: 24px;
+}
+
+body
+{
+  background-image: url("./resources/images/mesh2.jpg");
+}
+
 /* Organization container */
 .company
 {
@@ -97,12 +114,6 @@ a:hover.change_link_color
   opacity: 0.85;
 }
 
-/* set header height */
-.header_height
-{
-  height: 60px;
-}
-
 /* set top margin at top most element */
 .top_margin
 {
@@ -153,14 +164,25 @@ a:hover.change_link_color
   height: 100px;
 }
 
+/* header specific  */
+header
+{
+  height: 60px;
+  position: fixed;
+  background: #ffcc55;
+  width: 100%;
+}
+
 /* footer specifics */
-.footer
+footer
 {
   margin: 10px 0px 0px 0px;
   padding: 10px 200px 10px 200px;
   text-align: center;
   height: 25px;
-  opacity: 0.85;
+  background: #ffcc55;
+  color: white;
+  font-family: 'Shrikhand', cursive;
 }
 
 /* indent 15px */
@@ -188,17 +210,15 @@ a:hover.change_link_color
   background: gray;
   border-bottom-left-radius: 300px;
   border-bottom-right-radius: 300px;
-  opacity: 0.85;
 }
 
-/* dropdown content styling */
+/* dropdown content container styling */
 .dropdown_content
 {
   display: none;
   background: #ffee99;
   padding: 10px 10px 10px 10px;
   min-width: 150px;
-  opacity: 0.85;
 }
 
 /* dropdown menu item styling */
@@ -231,7 +251,6 @@ a:hover.change_link_color
 /* change submenu items styling on hover */
 .dropdown_menu_item:hover
 {
-  opacity: 0.85;
   background: #eebb77;
 }
 
