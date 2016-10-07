@@ -160,6 +160,7 @@ a:hover.change_link_color
   padding: 10px 200px 10px 200px;
   text-align: center;
   height: 25px;
+  opacity: 0.85;
 }
 
 /* indent 15px */
@@ -179,7 +180,7 @@ a:hover.change_link_color
 /* dropdown menu root item position */
 .dropdown_menu
 {
-  display: inline-block;
+  display: block;
   position: fixed;
   top: 60px;
   height: 20px;
@@ -187,6 +188,7 @@ a:hover.change_link_color
   background: gray;
   border-bottom-left-radius: 300px;
   border-bottom-right-radius: 300px;
+  opacity: 0.85;
 }
 
 /* dropdown content styling */
@@ -196,6 +198,7 @@ a:hover.change_link_color
   background: #ffee99;
   padding: 10px 10px 10px 10px;
   min-width: 150px;
+  opacity: 0.85;
 }
 
 /* dropdown menu item styling */
@@ -203,6 +206,12 @@ a:hover.change_link_color
 {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+/*  dropdown button hover change  */
+.dropdown_menu:hover
+{
+  height: 0px;
 }
 
 /* display sub menu */
@@ -222,6 +231,7 @@ a:hover.change_link_color
 /* change submenu items styling on hover */
 .dropdown_menu_item:hover
 {
+  opacity: 0.85;
   background: #eebb77;
 }
 
